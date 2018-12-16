@@ -64,7 +64,7 @@ public class SignUpActivity extends AppCompatActivity {
         signUpBtn.setOnLongClickListener(new View.OnLongClickListener() {
             @Override
             public boolean onLongClick(View v) {
-                Toast.makeText(SignUpActivity.this, "", Toast.LENGTH_SHORT).show();
+                Toast.makeText(SignUpActivity.this, "길게 누름", Toast.LENGTH_SHORT).show();
 
                 return true;
             }
