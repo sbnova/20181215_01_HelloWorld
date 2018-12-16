@@ -33,16 +33,18 @@
         </LinearLayout>
 
         <EditText
+            android:id="@+id/idEdt"
             android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="태식"/>
+            android:hint="아이디를 입력하세요."/>
 
         <EditText
+            android:id="@+id/pwEdt"
             android:layout_marginTop="5dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="z1843@naver.com"/>
+            android:hint="비밀번호를 입력하세요."/>
         <TextView
             android:layout_marginTop="5dp"
             android:layout_marginLeft="10dp"
@@ -61,6 +63,7 @@
         android:orientation="vertical">
 
         <CheckBox
+            android:id="@+id/allCheckBox"
             android:layout_marginTop="25dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -166,6 +169,7 @@
 
 
     <Button
+        android:id="@+id/signUpBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#7848D5"
